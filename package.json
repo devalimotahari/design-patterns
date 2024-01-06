@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start:singleton": "npx nodemon singleton/main.ts",
-    "start:factory": "npx nodemon factory/main.ts"
+    "start:factory": "npx nodemon factory/main.ts",
+    "start:decorator": "npx nodemon decorator/main.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.10.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
